@@ -12,16 +12,28 @@ switch ($page) {
         include "pages/dashboard.php";
         break;
     case "bagian":
-        include "pages/bagian.php";
+        include "pages/bagian/bagian.php";
         break;
     case "bagiantambah":
-        include "pages/bagiantambah.php";
+        include "pages/bagian/bagiantambah.php";
         break;
     case "bagianubah":
-        include "pages/bagianubah.php";
+        include "pages/bagian/bagianubah.php";
         break;
     case "bagianhapus":
-        include "pages/bagianhapus.php";
+        include "pages/bagian/bagianhapus.php";
+        break;
+    case "karyawan":
+        include "pages/karyawan/karyawan.php";
+        break;
+    case "karyawantambah":
+        include "pages/karyawan/karyawantambah.php";
+        break;
+    case "karyawanhapus":
+        include "pages/karyawan/karyawanhapus.php";
+        break;
+    case "karyawanubah":
+        include "pages/karyawan/karyawanubah.php";
         break;
     default:
         include "pages/404.php";
