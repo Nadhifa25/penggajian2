@@ -88,7 +88,7 @@
                 <div class="col mb-3">
                     <input class="form-check-input" type="radio" name="status_karyawan" id="TETAP" value="TETAP" required>
                     <label class="form-check-label" for="TETAP">
-                        Tetap
+                        TETAP
                     </label>
                 </div>
                 <div class="col mb-3">
